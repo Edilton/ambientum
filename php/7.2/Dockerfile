@@ -92,6 +92,7 @@ RUN echo "---> Enabling PHP-Alpine" && \
     php7-zlib@php \
     php7-pcntl@php \
     php7-cgi@php \
+    php7-ldap@php \
     php7-phpdbg@php && \
     sudo ln -s /usr/bin/php7 /usr/bin/php && \
     sudo ln -s /usr/bin/php-cgi7 /usr/bin/php-cgi && \
