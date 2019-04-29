@@ -9,7 +9,7 @@
 #
 # Inspired by official PHP images.
 #
-FROM edilton/php
+FROM edilton/php:7.2
 
 # Repository/Image Maintainer
 LABEL maintainer="Diego Hernandes <iamhernandev@gmail.com>"
